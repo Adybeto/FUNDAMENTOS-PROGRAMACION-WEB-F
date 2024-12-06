@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d41515;
+}
+
+/* Tarjeta */
+.card {
+    width: 300px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 6px 6px 6px black;
+}
+
+/* Imagen */
+.image-container img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    background-color: #ddd;
+}
+.flag img {
+    width: 70px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+    align-items: center;
+}
+
+hr {
+    height: 1px;
+    background-color: #b40b0b;
+}
+
+/* Contenido */
+.content h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #333;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.date {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content p {
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/* Botón */
+.btn-learning {
+    background-color: #361068;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.btn-learning:hover {
+    background-color: #45a049;
+}
+
+/* Pie de la tarjeta */
+footer {
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
