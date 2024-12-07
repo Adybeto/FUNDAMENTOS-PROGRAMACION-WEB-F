@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333; 
+}
+
+
+header {
+    text-align: center;
+    background-color: #514caf;
+    color: white;
+    padding: 20px;
+}
+
+
+.introduccion {
+    padding: 20px;
+    background-color: #e8dfee;
+    color: #56298d;
+}
+
+
+div img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #544caf !important;
+    border-radius: 8px;
+}
+
+div {
+    padding-right: 900px;
+}
+
+.parrafo {
+    color: #1abe7a !important; 
+    font-weight: bold;
+}
+
+
+
