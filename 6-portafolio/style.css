@@ -64,6 +64,7 @@ header {
     align-items: center;
     position: relative;
     flex: 1;
+    overflow: hidden;
     
 }
 
@@ -71,21 +72,17 @@ header {
     position: absolute;
 }
 
-.img-pizza {
-    width: 120%;
-    height: 115%;
-}
-
 .img-tomato {
+    width: 20%;
     filter: blur(20px);
-    right: 0;
-    top: 0;
+    right: 40px;
+    top: 90px;
 
 }
 
 .img-hoja {
-    width: 40%;
-    left: 0;
+    width: 20%;
+    left: 40px;
     bottom: 40px;
     transform: rotate(130deg);
     filter: blur(20px)
@@ -182,3 +179,40 @@ header {
     font-weight: bold;
 }
 
+/* Primer breakpoint tablet */
+@media screen and (max-width: 800px){
+    body{
+       /*  background-color: coral; */
+    }
+    .welcome-content{
+        flex-direction: column-reverse;
+    }
+    .col-2{
+        /* background-color: cornflowerblue!important; */
+        flex: none;
+        height: 300px;
+    }
+    .img-pizza, .img-hoja, .img-tomato {
+        width: 230px;
+    }
+    .productos-content{
+        flex-wrap: wrap;
+    }
+    .product-card{
+        flex: none;
+        width: 80%;
+        margin: auto;
+    }
+}
+
+/* Segundo breakpoint mobile */
+@media screen and (max-width: 576px){
+    body{
+        /*  background-color: coral; */
+    }
+    .product-card{
+        flex: none;
+        width: 80%;
+        margin: auto;
+    }
+}
