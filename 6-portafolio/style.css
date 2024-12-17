@@ -179,40 +179,124 @@ header {
     font-weight: bold;
 }
 
-/* Primer breakpoint tablet */
-@media screen and (max-width: 800px){
-    body{
-       /*  background-color: coral; */
-    }
-    .welcome-content{
-        flex-direction: column-reverse;
-    }
-    .col-2{
-        /* background-color: cornflowerblue!important; */
-        flex: none;
-        height: 300px;
-    }
-    .img-pizza, .img-hoja, .img-tomato {
-        width: 230px;
-    }
-    .productos-content{
-        flex-wrap: wrap;
-    }
-    .product-card{
-        flex: none;
-        width: 80%;
-        margin: auto;
-    }
+.skills-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 80px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.skills-content > div{
+    display: grid;
+    row-gap: 10px;
+}
+
+
+.content {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-bottom: 2px solid #e91e63;
+    padding-bottom: 5px;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 5px 0;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #e91e63;
+}
+
+.social-links a img {
+    width: 24px;
+    margin: 0 5px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+
+/* Primer breakpoint tablet */
+@media screen and (max-width: 800px){
+
+    body{
+        /*  background-color: coral; */
+     }
+     .welcome-content{
+         flex-direction: column-reverse;
+     }
+     .col-2{
+         /* background-color: cornflowerblue!important; */
+         flex: none;
+         height: 300px;
+     }
+     .img-pizza, .img-hoja, .img-tomato {
+         width: 230px;
+     }
+     ./* productos-content{
+         flex-wrap: wrap;
+     }
+     .product-card{
+         flex: none;
+         width: 80%;
+         margin: auto;
+     } */
+}
+   
 /* Segundo breakpoint mobile */
-@media screen and (max-width: 576px){
+@media screen and (max-width: 576px) {
     body{
         /*  background-color: coral; */
     }
-    .product-card{
-        flex: none;
-        width: 80%;
-        margin: auto;
+    .productos-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .skills-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .skills-content > div{
+        text-align: center;
     }
 }
