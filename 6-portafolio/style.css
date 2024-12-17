@@ -259,10 +259,6 @@ footer {
 
 /* Primer breakpoint tablet */
 @media screen and (max-width: 800px){
-
-    body{
-        /*  background-color: coral; */
-     }
      .welcome-content{
          flex-direction: column-reverse;
      }
@@ -286,9 +282,7 @@ footer {
    
 /* Segundo breakpoint mobile */
 @media screen and (max-width: 576px) {
-    body{
-        /*  background-color: coral; */
-    }
+
     .productos-content{
         display: grid;
         grid-template-columns: 1fr 1fr;
