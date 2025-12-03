@@ -64,8 +64,8 @@ section {
 /* Footer */
 footer {
     text-align: center;
-    background-color: #541b1b;
-    color: white;
+    background-color: #4d1111;
+    color: rgba(255, 255, 255, 0.858);
     padding: 10px;
     margin-top: 20px;
 }

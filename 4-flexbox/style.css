@@ -12,7 +12,7 @@
     width: 600px;
     height: 600px;
     background-color: blueviolet;
-    border: 3px black solid;
+    border: 3px rgb(0, 0, 0) solid;
     margin: 40px auto;
 
 }
